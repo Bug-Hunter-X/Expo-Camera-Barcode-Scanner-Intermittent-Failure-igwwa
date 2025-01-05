@@ -1,0 +1,1 @@
+This bug occurs when using Expo's `Camera` API with a custom `onBarCodeScanned` function.  The barcode scanner sometimes fails to recognize barcodes, even when they are clearly visible and properly formatted. This is intermittent and doesn't occur consistently.  The camera preview displays correctly, and there are no error messages in the console.
